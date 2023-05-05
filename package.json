@@ -17,6 +17,8 @@
     "styled-components": "^5.3.10"
   },
   "devDependencies": {
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.325",
     "gh-pages": "^5.0.0"
   }
 }
