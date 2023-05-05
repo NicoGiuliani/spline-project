@@ -3,6 +3,7 @@
   "name": "spline",
   "version": "0.1.0",
   "private": true,
+  "export": "next export",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
