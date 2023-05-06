@@ -18,7 +18,6 @@ export default function ContentComponent() {
 const Content = styled.div`
   position: absolute;
   top: 30px;
-  width: 100%;
 
   display: flex;
   flex-direction: column;
@@ -78,6 +77,7 @@ const Content = styled.div`
 
   h1, p, button {
     margin: 0 30px 0 100px;
+    z-index: 101;
 
     @media (max-width: 1024px) {
       margin: 0 30px;

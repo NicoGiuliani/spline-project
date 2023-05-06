@@ -26,6 +26,7 @@ const Wrapper = styled.div`
     margin: 0;
     top: 0;
     right: 0;
+    z-index: 100;
 
     @media (max-width: 1024px) {
       transform: scale(0.8) translateX(200px);
